@@ -1,0 +1,186 @@
+{
+  "basic": [
+    {
+      "name": "は / が (wa/ga)",
+      "explanation": "Indicates the subject of the sentence",
+      "example": "私は学生です (Watashi wa gakusei desu) - I am a student",
+      "pronunciation": "wa / ga"
+    },
+    {
+      "name": "を (wo)",
+      "explanation": "Indicates the object of the sentence",
+      "example": "リンゴを食べます (Ringo wo tabemasu) - I eat an apple",
+      "pronunciation": "wo"
+    },
+    {
+      "name": "です (desu)",
+      "explanation": "Formal copula used to indicate the state or quality of a noun",
+      "example": "彼は優しいです (Kare wa yasashii desu) - He is kind",
+      "pronunciation": "desu"
+    },
+    {
+      "name": "ます (masu)",
+      "explanation": "Formal verb ending used to indicate present tense",
+      "example": "私は勉強します (Watashi wa benkyou shimasu) - I study",
+      "pronunciation": "masu"
+    },
+    {
+      "name": "だ (da)",
+      "explanation": "Informal copula used to indicate the state or quality of a noun",
+      "example": "彼は優しいだ (Kare wa yasashii da) - He is kind",
+      "pronunciation": "da"
+    },
+    {
+      "name": "る (ru)",
+      "explanation": "Informal verb ending used to indicate present tense",
+      "example": "私は勉強する (Watashi wa benkyou suru) - I study",
+      "pronunciation": "ru"
+    }
+  ],
+  "particles": [
+    {
+      "name": "に (ni)",
+      "explanation": "Indicates the destination or location of an action",
+      "example": "学校に行きます (Gakkou ni ikimasu) - I go to school",
+      "pronunciation": "ni"
+    },
+    {
+      "name": "へ (he)",
+      "explanation": "Indicates the direction of an action",
+      "example": "公園へ行きます (Kouen he ikimasu) - I go to the park",
+      "pronunciation": "he"
+    },
+    {
+      "name": "で (de)",
+      "explanation": "Indicates the location where an action takes place",
+      "example": "レストランで食べます (Resutoran de tabemasu) - I eat at a restaurant",
+      "pronunciation": "de"
+    },
+    {
+      "name": "から (kara)",
+      "explanation": "Indicates the starting point of an action",
+      "example": "家から出ます (Ie kara demasu) - I leave from home",
+      "pronunciation": "kara"
+    },
+    {
+      "name": "まで (made)",
+      "explanation": "Indicates the end point of an action",
+      "example": "駅まで行きます (Eki made ikimasu) - I go to the station",
+      "pronunciation": "made"
+    },
+    {
+      "name": "と (to)",
+      "explanation": "Indicates the means or method of an action",
+      "example": "電話で話します (Denwa de hanashimasu) - I talk on the phone",
+      "pronunciation": "to"
+    },
+    {
+      "name": "は (wa)",
+      "explanation": "Indicates the topic of a sentence",
+      "example": "私は日本語が好きです (Watashi wa Nihongo ga suki desu) - I like Japanese",
+      "pronunciation": "wa"
+    },
+    {
+      "name": "も (mo)",
+      "explanation": "Indicates the addition or inclusion of something",
+      "example": "りんごも食べます (Ringo mo tabemasu) - I eat apples too",
+      "pronunciation": "mo"
+    }
+  ],
+  "verb tenses": [
+    {
+      "name": "ている (teiru)",
+      "explanation": "Indicates the progressive form of a verb",
+      "example": "今、勉強しています (Ima, benkyou shiteimasu) - I am studying now",
+      "pronunciation": "teiru"
+    },
+    {
+      "name": "た (ta)",
+      "explanation": "Indicates the past tense of a verb",
+      "example": "昨日、友達に会いました (Kinou, tomodachi ni aimashita) - I met my friend yesterday",
+      "pronunciation": "ta"
+    },
+    {
+      "name": "て (te)",
+      "explanation": "Indicates the conjunctive form of a verb",
+      "example": "勉強して、テストを受けます (Benkyou shite, tesuto wo ukemasu) - I study and take a test",
+      "pronunciation": "te"
+    },
+    {
+      "name": "ない (nai)",
+      "explanation": "Indicates the negative form of a verb",
+      "example": "行かない (Ikanai) - I don't go",
+      "pronunciation": "nai"
+    },
+    {
+      "name": "たい (tai)",
+      "explanation": "Indicates the desire to do something",
+      "example": "旅行したいです (Ryokou shitai desu) - I want to travel",
+      "pronunciation": "tai"
+    },
+    {
+      "name": "よう (you)",
+      "explanation": "Indicates the likelihood or potential of an action",
+      "example": "明日、雨が降るようです (Ashita, ame ga furu you desu) - It seems like it will rain tomorrow",
+      "pronunciation": "you"
+    }
+  ],
+  "sentence structures": [
+    {
+      "name": "の (no)",
+      "explanation": "Indicates possession or the relationship between two nouns",
+      "example": "私の本 (Watashi no hon) - My book",
+      "pronunciation": "no"
+    },
+    {
+      "name": "こと (koto)",
+      "explanation": "Indicates an action or event in a noun form",
+      "example": "日本語を勉強すること (Nihongo wo benkyou suru koto) - Studying Japanese",
+      "pronunciation": "koto"
+    },
+    {
+      "name": "という (to iu)",
+      "explanation": "Indicates a quotation or the name of something",
+      "example": "東京という町 (Toukyou to iu machi) - The city called Tokyo",
+      "pronunciation": "to iu"
+    },
+    {
+      "name": "が (ga)",
+      "explanation": "Indicates the subject of a sentence or a noun that stands out",
+      "example": "犬が好きです (Inu ga suki desu) - I like dogs",
+      "pronunciation": "ga"
+    },
+    {
+      "name": "に (ni)",
+      "explanation": "Indicates the time, location, or indirect object of an action",
+      "example": "学校に行きます (Gakkou ni ikimasu) - I go to school",
+      "pronunciation": "ni"
+    },
+    {
+      "name": "で (de)",
+      "explanation": "Indicates the location or means of an action",
+      "example": "公園で遊びます (Kouen de asobimasu) - I play in the park",
+      "pronunciation": "de"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "name": "のに (noni)",
+      "explanation": "Indicates a contrast between the expected and actual situation",
+      "example": "勉強したのに、テストで失敗しました (Benkyou shita noni, tesuto de shippai shimashita) - I studied, but failed the test",
+      "pronunciation": "noni"
+    },
+    {
+      "name": "ば (ba)",
+      "explanation": "Indicates a conditional situation",
+      "example": "早く起きれば、朝ごはんを食べます (Hayaku okireba, asagohan wo tabemasu) - If I wake up early, I eat breakfast",
+      "pronunciation": "ba"
+    },
+    {
+      "name": "なら (nara)",
+      "explanation": "Indicates a hypothetical situation or a suggestion",
+      "example": "もし時間があるなら、映画を見に行きましょう (Moshi jikan ga aru nara, eiga wo mi ni ikimashou) - If we have time, let's go see a movie",
+      "pronunciation": "nara"
+    }
+  ]
+}

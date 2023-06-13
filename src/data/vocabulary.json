@@ -1,0 +1,1389 @@
+{
+  "vocabulary": [
+    {
+      "japanese": "ありがとう",
+      "english": "Thank you",
+      "pronunciation": "arigatou"
+    },
+    {
+      "japanese": "こんにちは",
+      "english": "Hello",
+      "pronunciation": "konnichiwa"
+    },
+    {
+      "japanese": "さようなら",
+      "english": "Goodbye",
+      "pronunciation": "sayounara"
+    },
+    {
+      "japanese": "はい",
+      "english": "Yes",
+      "pronunciation": "hai"
+    },
+    {
+      "japanese": "いいえ",
+      "english": "No",
+      "pronunciation": "iie"
+    },
+    {
+      "japanese": "おはよう",
+      "english": "Good morning",
+      "pronunciation": "ohayou"
+    },
+    {
+      "japanese": "こんばんは",
+      "english": "Good evening",
+      "pronunciation": "konbanwa"
+    },
+    {
+      "japanese": "おやすみなさい",
+      "english": "Good night",
+      "pronunciation": "oyasuminasai"
+    },
+    {
+      "japanese": "すみません",
+      "english": "Excuse me'm sorry",
+      "pronunciation": "sumimasen"
+    },
+    {
+      "japanese": "どういたしまして",
+      "english": "You're welcome",
+      "pronunciation": "douitashimashite"
+    },
+    {
+      "japanese": "お願いします",
+      "english": "Please",
+      "pronunciation": "onegaishimasu"
+    },
+    {
+      "japanese": "はじめまして",
+      "english": "Nice to meet you",
+      "pronunciation": "hajimemashite"
+    },
+    {
+      "japanese": "ごめんなさい",
+      "english": "I'm sorry",
+      "pronunciation": "gomennasai"
+    },
+    {
+      "japanese": "元気ですか",
+      "english": "How are you?",
+      "pronunciation": "genki desu ka"
+    },
+    {
+      "japanese": "大丈夫ですか",
+      "english": "Are you okay?",
+      "pronunciation": "daijoubu desu ka"
+    },
+    {
+      "japanese": "おっしゃる通り",
+      "english": "You're right",
+      "pronunciation": "ossharu toori"
+    },
+    {
+      "japanese": "いただきます",
+      "english": "Thanks for the meal",
+      "pronunciation": "itadakimasu"
+    },
+    {
+      "japanese": "ごちそうさまでした",
+      "english": "Thank you for the meal",
+      "pronunciation": "gochisousama deshita"
+    },
+    {
+      "japanese": "先生",
+      "english": "Teacher",
+      "pronunciation": "sensei"
+    },
+    {
+      "japanese": "学生",
+      "english": "Student",
+      "pronunciation": "gakusei"
+    },
+    {
+      "japanese": "英語",
+      "english": "English language",
+      "pronunciation": "eigo"
+    },
+    {
+      "japanese": "中学校",
+      "english": "Junior high school",
+      "pronunciation": "chuugakkou"
+    },
+    {
+      "japanese": "高校",
+      "english": "High school",
+      "pronunciation": "koukou"
+    },
+    {
+      "japanese": "大学",
+      "english": "University",
+      "pronunciation": "daigaku"
+    },
+    {
+      "japanese": "本",
+      "english": "Book",
+      "pronunciation": "hon"
+    },
+    {
+      "japanese": "鉛筆",
+      "english": "Pencil",
+      "pronunciation": "enpitsu"
+    },
+    {
+      "japanese": "机",
+      "english": "Desk",
+      "pronunciation": "tsukue"
+    },
+    {
+      "japanese": "椅子",
+      "english": "Chair",
+      "pronunciation": "isu"
+    },
+    {
+      "japanese": "窓",
+      "english": "Window",
+      "pronunciation": "mado"
+    },
+    {
+      "japanese": "ドア",
+      "english": "Door",
+      "pronunciation": "doa"
+    },
+    {
+      "japanese": "電車",
+      "english": "Train",
+      "pronunciation": "densha"
+    },
+    {
+      "japanese": "バス",
+      "english": "Bus",
+      "pronunciation": "basu"
+    },
+    {
+      "japanese": "飛行機",
+      "english": "Airplane",
+      "pronunciation": "hikouki"
+    },
+    {
+      "japanese": "自転車",
+      "english": "Bicycle",
+      "pronunciation": "jitensha"
+    },
+    {
+      "japanese": "車",
+      "english": "Car",
+      "pronunciation": "kuruma"
+    },
+    {
+      "japanese": "犬",
+      "english": "Dog",
+      "pronunciation": "inu"
+    },
+    {
+      "japanese": "猫",
+      "english": "Cat",
+      "pronunciation": "neko"
+    },
+    {
+      "japanese": "魚",
+      "english": "Fish",
+      "pronunciation": "sakana"
+    },
+    {
+      "japanese": "鳥",
+      "english": "Bird",
+      "pronunciation": "tori"
+    },
+    {
+      "japanese": "空気",
+      "english": "Air",
+      "pronunciation": "kuuki"
+    },
+    {
+      "japanese": "水",
+      "english": "Water",
+      "pronunciation": "mizu"
+    },
+    {
+      "japanese": "食べ物",
+      "english": "Food",
+      "pronunciation": "tabemono"
+    },
+    {
+      "japanese": "飲み物",
+      "english": "Drink",
+      "pronunciation": "nomimono"
+    },
+    {
+      "japanese": "果物",
+      "english": "Fruit",
+      "pronunciation": "kudamono"
+    },
+    {
+      "japanese": "野菜",
+      "english": "Vegetable",
+      "pronunciation": "yah-sigh"
+    },
+    {
+      "japanese": "肉",
+      "english": "Meat",
+      "pronunciation": "niku"
+    },
+    {
+      "japanese": "チーズ",
+      "english": "Cheese",
+      "pronunciation": "chiizu"
+    },
+    {
+      "japanese": "卵",
+      "english": "Egg",
+      "pronunciation": "tamago"
+    },
+    {
+      "japanese": "米",
+      "english": "Rice",
+      "pronunciation": "kome"
+    },
+    {
+      "japanese": "パン",
+      "english": "Bread",
+      "pronunciation": "pan"
+    },
+    {
+      "japanese": "研究",
+      "english": "Research",
+      "pronunciation": "kenkyuu"
+    },
+    {
+      "japanese": "書く",
+      "english": "Write",
+      "pronunciation": "kaku"
+    },
+    {
+      "japanese": "読む",
+      "english": "Read",
+      "pronunciation": "yomu"
+    },
+    {
+      "japanese": "話す",
+      "english": "Speak",
+      "pronunciation": "hanasu"
+    },
+    {
+      "japanese": "聞く",
+      "english": "Listen",
+      "pronunciation": "kiku"
+    },
+    {
+      "japanese": "学ぶ",
+      "english": "Learn",
+      "pronunciation": "manabu"
+    },
+    {
+      "japanese": "勉強する",
+      "english": "Study",
+      "pronunciation": "benkyou suru"
+    },
+    {
+      "japanese": "教える",
+      "english": "Teach",
+      "pronunciation": "oshieru"
+    },
+    {
+      "japanese": "知っている",
+      "english": "Know",
+      "pronunciation": "shitteiru"
+    },
+    {
+      "japanese": "忘れる",
+      "english": "Forget",
+      "pronunciation": "wasureru"
+    },
+    {
+      "japanese": "理解する",
+      "english": "Understand",
+      "pronunciation": "rikai suru"
+    },
+    {
+      "japanese": "問題",
+      "english": "Problem",
+      "pronunciation": "mondai"
+    },
+    {
+      "japanese": "答え",
+      "english": "Answer",
+      "pronunciation": "kotae"
+    },
+    {
+      "japanese": "質問する",
+      "english": "Ask",
+      "pronunciation": "shitsumon suru"
+    },
+    {
+      "japanese": "話",
+      "english": "Conversation",
+      "pronunciation": "hanashi"
+    },
+    {
+      "japanese": "会話する",
+      "english": "Talk",
+      "pronunciation": "kaiwa suru"
+    },
+    {
+      "japanese": "電話する",
+      "english": "Call",
+      "pronunciation": "denwa suru"
+    },
+    {
+      "japanese": "手紙",
+      "english": "Letter",
+      "pronunciation": "tegami"
+    },
+    {
+      "japanese": "友達",
+      "english": "Friend",
+      "pronunciation": "tomodachi"
+    },
+    {
+      "japanese": "家族",
+      "english": "Family",
+      "pronunciation": "kazoku"
+    },
+    {
+      "japanese": "彼女",
+      "english": "Girlfriend",
+      "pronunciation": "kanojo"
+    },
+    {
+      "japanese": "彼氏",
+      "english": "Boyfriend",
+      "pronunciation": "kareshi"
+    },
+    {
+      "japanese": "父",
+      "english": "Father",
+      "pronunciation": "chichi"
+    },
+    {
+      "japanese": "母",
+      "english": "Mother",
+      "pronunciation": "haha"
+    },
+    {
+      "japanese": "兄弟",
+      "english": "Siblings",
+      "pronunciation": "kyoudai"
+    },
+    {
+      "japanese": "姉",
+      "english": "Older sister",
+      "pronunciation": "ane"
+    },
+    {
+      "japanese": "妹",
+      "english": "Younger sister",
+      "pronunciation": "imouto"
+    },
+    {
+      "japanese": "兄",
+      "english": "Older brother",
+      "pronunciation": "ani"
+    },
+    {
+      "japanese": "弟",
+      "english": "Younger brother",
+      "pronunciation": "otouto"
+    },
+    {
+      "japanese": "車",
+      "english": "Car",
+      "pronunciation": "kuruma"
+    },
+    {
+      "japanese": "自転車",
+      "english": "Bicycle",
+      "pronunciation": "jitensha"
+    },
+    {
+      "japanese": "飛行機",
+      "english": "Airplane",
+      "pronunciation": "hikouki"
+    },
+    {
+      "japanese": "電車",
+      "english": "Train",
+      "pronunciation": "densha"
+    },
+    {
+      "japanese": "バス",
+      "english": "Bus",
+      "pronunciation": "basu"
+    },
+    {
+      "japanese": "船",
+      "english": "Boat",
+      "pronunciation": "fune"
+    },
+    {
+      "japanese": "旅行",
+      "english": "Travel",
+      "pronunciation": "ryokou"
+    },
+    {
+      "japanese": "出発",
+      "english": "Departure",
+      "pronunciation": "shuppatsu"
+    },
+    {
+      "japanese": "到着",
+      "english": "Arrival",
+      "pronunciation": "touchaku"
+    },
+    {
+      "japanese": "観光",
+      "english": "Sightseeing",
+      "pronunciation": "kankou"
+    },
+    {
+      "japanese": "予約する",
+      "english": "Reservation",
+      "pronunciation": "yoyaku suru"
+    },
+    {
+      "japanese": "ホテル",
+      "english": "Hotel",
+      "pronunciation": "hoteru"
+    },
+    {
+      "japanese": "地下鉄",
+      "english": "Subway",
+      "pronunciation": "chikatetsu"
+    },
+    {
+      "japanese": "道路",
+      "english": "Road",
+      "pronunciation": "douro"
+    },
+    {
+      "japanese": "交通",
+      "english": "Traffic",
+      "pronunciation": "koutsuu"
+    },
+    {
+      "japanese": "料理",
+      "english": "Cooking",
+      "pronunciation": "ryouri"
+    },
+    {
+      "japanese": "食べ物",
+      "english": "Food",
+      "pronunciation": "tabemono"
+    },
+    {
+      "japanese": "飲み物",
+      "english": "Drink",
+      "pronunciation": "nomimono"
+    },
+    {
+      "japanese": "レストラン",
+      "english": "Restaurant",
+      "pronunciation": "resutoran"
+    },
+    {
+      "japanese": "店",
+      "english": "Shop",
+      "pronunciation": "mise"
+    },
+    {
+      "japanese": "買う",
+      "english": "Buy",
+      "pronunciation": "kau"
+    },
+    {
+      "japanese": "売る",
+      "english": "Sell",
+      "pronunciation": "uru"
+    },
+    {
+      "japanese": "お金",
+      "english": "Money",
+      "pronunciation": "okane"
+    },
+    {
+      "japanese": "値段",
+      "english": "Price",
+      "pronunciation": "nedan"
+    },
+    {
+      "japanese": "現金",
+      "english": "Cash",
+      "pronunciation": "genkin"
+    },
+    {
+      "japanese": "クレジットカード",
+      "english": "Credit card",
+      "pronunciation": "kurejitto kaado"
+    },
+    {
+      "japanese": "会話",
+      "english": "Conversation",
+      "pronunciation": "kaiwa"
+    },
+    {
+      "japanese": "言葉",
+      "english": "Language",
+      "pronunciation": "kotoba"
+    },
+    {
+      "japanese": "日本語",
+      "english": "Japanese language",
+      "pronunciation": "nihongo"
+    },
+    {
+      "japanese": "英語",
+      "english": "English language",
+      "pronunciation": "eigo"
+    },
+    {
+      "japanese": "教育",
+      "english": "Education",
+      "pronunciation": "kyouiku"
+    },
+    {
+      "japanese": "学校",
+      "english": "School",
+      "pronunciation": "gakkou"
+    },
+    {
+      "japanese": "先生",
+      "english": "Teacher",
+      "pronunciation": "sensei"
+    },
+    {
+      "japanese": "学生",
+      "english": "Student",
+      "pronunciation": "gakusei"
+    },
+    {
+      "japanese": "試験",
+      "english": "Exam",
+      "pronunciation": "shiken"
+    },
+    {
+      "japanese": "本",
+      "english": "Book",
+      "pronunciation": "hon"
+    },
+    {
+      "japanese": "新聞",
+      "english": "Newspaper",
+      "pronunciation": "shinbun"
+    },
+    {
+      "japanese": "雑誌",
+      "english": "Magazine",
+      "pronunciation": "zasshi"
+    },
+    {
+      "japanese": "映画",
+      "english": "Movie",
+      "pronunciation": "eiga"
+    },
+    {
+      "japanese": "音楽",
+      "english": "Music",
+      "pronunciation": "ongaku"
+    },
+    {
+      "japanese": "テレビ",
+      "english": "Television",
+      "pronunciation": "terebi"
+    },
+    {
+      "japanese": "ラジオ",
+      "english": "Radio",
+      "pronunciation": "rajio"
+    },
+    {
+      "japanese": "時間",
+      "english": "Time",
+      "pronunciation": "jikan"
+    },
+    {
+      "japanese": "時計",
+      "english": "Watch",
+      "pronunciation": "tokei"
+    },
+    {
+      "japanese": "今",
+      "english": "Now",
+      "pronunciation": "ima"
+    },
+    {
+      "japanese": "昨日",
+      "english": "Yesterday",
+      "pronunciation": "kinou"
+    },
+    {
+      "japanese": "明日",
+      "english": "Tomorrow",
+      "pronunciation": "ashita"
+    },
+    {
+      "japanese": "今年",
+      "english": "This year",
+      "pronunciation": "kotoshi"
+    },
+    {
+      "japanese": "来年",
+      "english": "Next year",
+      "pronunciation": "rainen"
+    },
+    {
+      "japanese": "毎日",
+      "english": "Everyday",
+      "pronunciation": "mainichi"
+    },
+    {
+      "japanese": "週末",
+      "english": "Weekend",
+      "pronunciation": "shuumatsu"
+    },
+    {
+      "japanese": "休日",
+      "english": "Holiday",
+      "pronunciation": "kyuujitsu"
+    },
+    {
+      "japanese": "天気",
+      "english": "Weather",
+      "pronunciation": "tenki"
+    },
+    {
+      "japanese": "晴れ",
+      "english": "Sunny",
+      "pronunciation": "hare"
+    },
+    {
+      "japanese": "曇り",
+      "english": "Cloudy",
+      "pronunciation": "kumori"
+    },
+    {
+      "japanese": "雨",
+      "english": "Rain",
+      "pronunciation": "ame"
+    },
+    {
+      "japanese": "雪",
+      "english": "Snow",
+      "pronunciation": "yuki"
+    },
+    {
+      "japanese": "温度",
+      "english": "Temperature",
+      "pronunciation": "ondo"
+    },
+    {
+      "japanese": "冷たい",
+      "english": "Cold",
+      "pronunciation": "tsumeta"
+    },
+    {
+      "japanese": "暑い",
+      "english": "Hot",
+      "pronunciation": "atsui"
+    },
+    {
+      "japanese": "風",
+      "english": "Wind",
+      "pronunciation": "kaze"
+    },
+    {
+      "japanese": "台風",
+      "english": "Typhoon",
+      "pronunciation": "taifuu"
+    },
+    {
+      "japanese": "地震",
+      "english": "Earthquake",
+      "pronunciation": "jishin"
+    },
+    {
+      "japanese": "火山",
+      "english": "Volcano",
+      "pronunciation": "kazan"
+    },
+    {
+      "japanese": "海",
+      "english": "Sea",
+      "pronunciation": "umi"
+    },
+    {
+      "japanese": "川",
+      "english": "River",
+      "pronunciation": "kawa"
+    },
+    {
+      "japanese": "湖",
+      "english": "Lake",
+      "pronunciation": "mizuumi"
+    },
+    {
+      "japanese": "山",
+      "english": "Mountain",
+      "pronunciation": "yama"
+    },
+    {
+      "japanese": "町",
+      "english": "Town",
+      "pronunciation": "machi"
+    },
+    {
+      "japanese": "村",
+      "english": "Village",
+      "pronunciation": "mura"
+    },
+    {
+      "japanese": "市",
+      "english": "City",
+      "pronunciation": "shi"
+    },
+    {
+      "japanese": "都市",
+      "english": "Metropolis",
+      "pronunciation": "toshi"
+    },
+    {
+      "japanese": "国",
+      "english": "Country",
+      "pronunciation": "kuni"
+    },
+    {
+      "japanese": "日本",
+      "english": "Japan",
+      "pronunciation": "nippon"
+    },
+    {
+      "japanese": "アメリカ",
+      "english": "America",
+      "pronunciation": "amerika"
+    },
+    {
+      "japanese": "イギリス",
+      "english": "Britain",
+      "pronunciation": "igirisu"
+    },
+    {
+      "japanese": "中国",
+      "english": "China",
+      "pronunciation": "chuugoku"
+    },
+    {
+      "japanese": "フランス",
+      "english": "France",
+      "pronunciation": "furansu"
+    },
+    {
+      "japanese": "ドイツ",
+      "english": "Germany",
+      "pronunciation": "doitsu"
+    },
+    {
+      "japanese": "ロシア",
+      "english": "Russia",
+      "pronunciation": "roshia"
+    },
+    {
+      "japanese": "食べる",
+      "english": "To eat",
+      "pronunciation": "taberu"
+    },
+    {
+      "japanese": "飲む",
+      "english": "To drink",
+      "pronunciation": "nomu"
+    },
+    {
+      "japanese": "寝る",
+      "english": "To sleep",
+      "pronunciation": "neru"
+    },
+    {
+      "japanese": "起きる",
+      "english": "To wake up",
+      "pronunciation": "okiru"
+    },
+    {
+      "japanese": "話す",
+      "english": "To speak",
+      "pronunciation": "hanasu"
+    },
+    {
+      "japanese": "読む",
+      "english": "To read",
+      "pronunciation": "yomu"
+    },
+    {
+      "japanese": "書く",
+      "english": "To write",
+      "pronunciation": "kaku"
+    },
+    {
+      "japanese": "見る",
+      "english": "To see",
+      "pronunciation": "miru"
+    },
+    {
+      "japanese": "聞く",
+      "english": "To listen",
+      "pronunciation": "kiku"
+    },
+    {
+      "japanese": "行く",
+      "english": "To go",
+      "pronunciation": "iku"
+    },
+    {
+      "japanese": "来る",
+      "english": "To come",
+      "pronunciation": "kuru"
+    },
+    {
+      "japanese": "歩く",
+      "english": "To walk",
+      "pronunciation": "aruku"
+    },
+    {
+      "japanese": "走る",
+      "english": "To run",
+      "pronunciation": "hashiru"
+    },
+    {
+      "japanese": "乗る",
+      "english": "To ride",
+      "pronunciation": "noru"
+    },
+    {
+      "japanese": "買う",
+      "english": "To buy",
+      "pronunciation": "kau"
+    },
+    {
+      "japanese": "売る",
+      "english": "To sell",
+      "pronunciation": "uru"
+    },
+    {
+      "japanese": "持つ",
+      "english": "To hold",
+      "pronunciation": "motsu"
+    },
+    {
+      "japanese": "使う",
+      "english": "To use",
+      "pronunciation": "tsukau"
+    },
+    {
+      "japanese": "待つ",
+      "english": "To wait",
+      "pronunciation": "matsu"
+    },
+    {
+      "japanese": "知る",
+      "english": "To know",
+      "pronunciation": "shiru"
+    },
+    {
+      "japanese": "学ぶ",
+      "english": "To learn",
+      "pronunciation": "manabu"
+    },
+    {
+      "japanese": "働く",
+      "english": "To work",
+      "pronunciation": "hataraku"
+    },
+    {
+      "japanese": "休む",
+      "english": "To rest a break",
+      "pronunciation": "yasumu"
+    },
+    {
+      "japanese": "話題",
+      "english": "Topic of conversation",
+      "pronunciation": "wadai"
+    },
+    {
+      "japanese": "面白い",
+      "english": "Interesting",
+      "pronunciation": "omoshiroi"
+    },
+    {
+      "japanese": "好き",
+      "english": "Like",
+      "pronunciation": "suki"
+    },
+    {
+      "japanese": "嫌い",
+      "english": "Dislike",
+      "pronunciation": "kirai"
+    },
+    {
+      "japanese": "美味しい",
+      "english": "Delicious",
+      "pronunciation": "oishii"
+    },
+    {
+      "japanese": "簡単",
+      "english": "Easy",
+      "pronunciation": "kantan"
+    },
+    {
+      "japanese": "上手",
+      "english": "Skillful at",
+      "pronunciation": "jouzu"
+    },
+    {
+      "japanese": "下手",
+      "english": "Unskilled at",
+      "pronunciation": "heta"
+    },
+    {
+      "japanese": "早い",
+      "english": "Fast",
+      "pronunciation": "hayai"
+    },
+    {
+      "japanese": "遅い",
+      "english": "Slow",
+      "pronunciation": "osoi"
+    },
+    {
+      "japanese": "新しい",
+      "english": "New",
+      "pronunciation": "atarashii"
+    },
+    {
+      "japanese": "古い",
+      "english": "Old",
+      "pronunciation": "furui"
+    },
+    {
+      "japanese": "大きい",
+      "english": "Big",
+      "pronunciation": "ookii"
+    },
+    {
+      "japanese": "小さい",
+      "english": "Small",
+      "pronunciation": "chiisai"
+    },
+    {
+      "japanese": "高い",
+      "english": "Expensive",
+      "pronunciation": "takai"
+    },
+    {
+      "japanese": "安い",
+      "english": "Cheap",
+      "pronunciation": "yasui"
+    },
+    {
+      "japanese": "静か",
+      "english": "Quiet",
+      "pronunciation": "shizuka"
+    },
+    {
+      "japanese": "綺麗",
+      "english": "Beautiful",
+      "pronunciation": "kirei"
+    },
+    {
+      "japanese": "汚い",
+      "english": "Dirty",
+      "pronunciation": "kitanai"
+    },
+    {
+      "japanese": "楽しい",
+      "english": "Fun",
+      "pronunciation": "tanoshii"
+    },
+    {
+      "japanese": "辛い",
+      "english": "Spicy",
+      "pronunciation": "karai"
+    },
+    {
+      "japanese": "甘い",
+      "english": "Sweet",
+      "pronunciation": "amai"
+    },
+    {
+      "japanese": "苦い",
+      "english": "Bitter",
+      "pronunciation": "nigai"
+    },
+    {
+      "japanese": "塩辛い",
+      "english": "Salty",
+      "pronunciation": "shio-karai"
+    },
+    {
+      "japanese": "美しい",
+      "english": "Beautiful",
+      "pronunciation": "utsukushii"
+    },
+    {
+      "japanese": "可愛い",
+      "english": "Cute",
+      "pronunciation": "kawaii"
+    },
+    {
+      "japanese": "怖い",
+      "english": "Scary",
+      "pronunciation": "kowai"
+    },
+    {
+      "japanese": "笑う",
+      "english": "To laugh",
+      "pronunciation": "warau"
+    },
+    {
+      "japanese": "泣く",
+      "english": "To cry",
+      "pronunciation": "naku"
+    },
+    {
+      "japanese": "食べる",
+      "english": "To eat",
+      "pronunciation": "taberu"
+    },
+    {
+      "japanese": "飲む",
+      "english": "To drink",
+      "pronunciation": "nomu"
+    },
+    {
+      "japanese": "行く",
+      "english": "To go",
+      "pronunciation": "iku"
+    },
+    {
+      "japanese": "来る",
+      "english": "To come",
+      "pronunciation": "kuru"
+    },
+    {
+      "japanese": "見る",
+      "english": "To see",
+      "pronunciation": "miru"
+    },
+    {
+      "japanese": "聞く",
+      "english": "To listen",
+      "pronunciation": "kiku"
+    },
+    {
+      "japanese": "話す",
+      "english": "To speak",
+      "pronunciation": "hanasu"
+    },
+    {
+      "japanese": "書く",
+      "english": "To write",
+      "pronunciation": "kaku"
+    },
+    {
+      "japanese": "読む",
+      "english": "To read",
+      "pronunciation": "yomu"
+    },
+    {
+      "japanese": "歌う",
+      "english": "To sing",
+      "pronunciation": "utau"
+    },
+    {
+      "japanese": "遊ぶ",
+      "english": "To play",
+      "pronunciation": "asobu"
+    },
+    {
+      "japanese": "寝る",
+      "english": "To sleep",
+      "pronunciation": "neru"
+    },
+    {
+      "japanese": "起きる",
+      "english": "To wake up",
+      "pronunciation": "okiru"
+    },
+    {
+      "japanese": "生まれる",
+      "english": "To be born",
+      "pronunciation": "umareru"
+    },
+    {
+      "japanese": "死ぬ",
+      "english": "To die",
+      "pronunciation": "shinu"
+    },
+    {
+      "japanese": "好き",
+      "english": "Like",
+      "pronunciation": "suki"
+    },
+    {
+      "japanese": "嫌い",
+      "english": "Dislike",
+      "pronunciation": "kirai"
+    },
+    {
+      "japanese": "会う",
+      "english": "To meet",
+      "pronunciation": "au"
+    },
+    {
+      "japanese": "分かる",
+      "english": "To understand",
+      "pronunciation": "wakaru"
+    },
+    {
+      "japanese": "知る",
+      "english": "To know aware of",
+      "pronunciation": "shiru"
+    },
+    {
+      "japanese": "忘れる",
+      "english": "To forget",
+      "pronunciation": "wasureru"
+    },
+    {
+      "japanese": "覚える",
+      "english": "To memorize",
+      "pronunciation": "oboeru"
+    },
+    {
+      "japanese": "出る",
+      "english": "To go out",
+      "pronunciation": "deru"
+    },
+    {
+      "japanese": "入る",
+      "english": "To enter in",
+      "pronunciation": "hairu"
+    },
+    {
+      "japanese": "待つ",
+      "english": "To wait",
+      "pronunciation": "matsu"
+    },
+    {
+      "japanese": "急ぐ",
+      "english": "To hurry",
+      "pronunciation": "isogu"
+    },
+    {
+      "japanese": "遅れる",
+      "english": "To be late",
+      "pronunciation": "okureru"
+    },
+    {
+      "japanese": "止まる",
+      "english": "To stop",
+      "pronunciation": "tomaru"
+    },
+    {
+      "japanese": "始める",
+      "english": "To start",
+      "pronunciation": "hajimeru"
+    },
+    {
+      "japanese": "終わる",
+      "english": "To finish",
+      "pronunciation": "owaru"
+    },
+    {
+      "japanese": "違う",
+      "english": "To be different",
+      "pronunciation": "chigau"
+    },
+    {
+      "japanese": "変わる",
+      "english": "To change",
+      "pronunciation": "kawaru"
+    },
+    {
+      "japanese": "開ける",
+      "english": "To open",
+      "pronunciation": "akeru"
+    },
+    {
+      "japanese": "閉める",
+      "english": "To close",
+      "pronunciation": "shimeru"
+    },
+    {
+      "japanese": "走る",
+      "english": "To run",
+      "pronunciation": "hashiru"
+    },
+    {
+      "japanese": "歩く",
+      "english": "To walk",
+      "pronunciation": "aruku"
+    },
+    {
+      "japanese": "座る",
+      "english": "To sit",
+      "pronunciation": "suwaru"
+    },
+    {
+      "japanese": "立つ",
+      "english": "To stand",
+      "pronunciation": "tatsu"
+    },
+    {
+      "japanese": "泳ぐ",
+      "english": "To swim",
+      "pronunciation": "oyogu"
+    },
+    {
+      "japanese": "習う",
+      "english": "To learn (from a teacher)",
+      "pronunciation": "narau"
+    },
+    {
+      "japanese": "作る",
+      "english": "To make",
+      "pronunciation": "tsukuru"
+    },
+    {
+      "japanese": "買う",
+      "english": "To buy",
+      "pronunciation": "kau"
+    },
+    {
+      "japanese": "売る",
+      "english": "To sell",
+      "pronunciation": "uru"
+    },
+    {
+      "japanese": "持つ",
+      "english": "To hold",
+      "pronunciation": "motsu"
+    },
+    {
+      "japanese": "送る",
+      "english": "To send",
+      "pronunciation": "okuru"
+    },
+    {
+      "japanese": "貸す",
+      "english": "To lend",
+      "pronunciation": "kasu"
+    },
+    {
+      "japanese": "借りる",
+      "english": "To borrow",
+      "pronunciation": "kariru"
+    },
+    {
+      "japanese": "洗う",
+      "english": "To wash",
+      "pronunciation": "arau"
+    },
+    {
+      "japanese": "食べる",
+      "english": "To eat",
+      "pronunciation": "taberu"
+    },
+    {
+      "japanese": "飲む",
+      "english": "To drink",
+      "pronunciation": "nomu"
+    },
+    {
+      "japanese": "聞く",
+      "english": "To listen",
+      "pronunciation": "kiku"
+    },
+    {
+      "japanese": "話す",
+      "english": "To talk",
+      "pronunciation": "hanasu"
+    },
+    {
+      "japanese": "書く",
+      "english": "To write",
+      "pronunciation": "kaku"
+    },
+    {
+      "japanese": "読む",
+      "english": "To read",
+      "pronunciation": "yomu"
+    },
+    {
+      "japanese": "知る",
+      "english": "To know",
+      "pronunciation": "shiru"
+    },
+    {
+      "japanese": "考える",
+      "english": "To think",
+      "pronunciation": "kangaeru"
+    },
+    {
+      "japanese": "覚える",
+      "english": "To memorize",
+      "pronunciation": "oboeru"
+    },
+    {
+      "japanese": "忘れる",
+      "english": "To forget",
+      "pronunciation": "wasureru"
+    },
+    {
+      "japanese": "見る",
+      "english": "To see",
+      "pronunciation": "miru"
+    },
+    {
+      "japanese": "会う",
+      "english": "To meet",
+      "pronunciation": "au"
+    },
+    {
+      "japanese": "着る",
+      "english": "To wear on",
+      "pronunciation": "kiru"
+    },
+    {
+      "japanese": "脱ぐ",
+      "english": "To take off",
+      "pronunciation": "nugu"
+    },
+    {
+      "japanese": "寝る",
+      "english": "To sleep",
+      "pronunciation": "neru"
+    },
+    {
+      "japanese": "起きる",
+      "english": "To wake up up",
+      "pronunciation": "okiru"
+    },
+    {
+      "japanese": "知っている",
+      "english": "To know (a fact)",
+      "pronunciation": "shitteiru"
+    },
+    {
+      "japanese": "休む",
+      "english": "To rest a break",
+      "pronunciation": "yasumu"
+    }
+  ]
+}
