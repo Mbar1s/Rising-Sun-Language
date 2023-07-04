@@ -142,7 +142,7 @@ export default function Search() {
       <div className="flex  justify-center">
         <input
           onChange={handleInput}
-          className="border-2 w-1/2 text-2xl text-center border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
+          className="border-2 w-full text-2xl text-center border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
           type="text"
         />
         <button
@@ -152,7 +152,7 @@ export default function Search() {
           Search <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>
-      <div className="grid grid-cols-3 h-screen">
+      <div className="flex flex-col sm:grid sm:grid-cols-3 h-full">
         <section className=" col-span-2 grid grid-cols-2 gap-5 border border-slate-600">
           <div>
             <img src={details.kanji?.video?.poster} className="h-full" alt="" />

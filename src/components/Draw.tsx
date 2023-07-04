@@ -99,7 +99,7 @@ export default function Draw() {
           </p>
         )}
         {allKanji.length !== 0 ? (
-          <div className="grid grid-cols-2">
+          <div className="flex sm:grid sm:grid-cols-2">
             <div className="border border-slate-500 flex flex-col">
               <h1 className="font-mplus flex justify-center text-3xl">
                 {singleKanji?.kanji.character}

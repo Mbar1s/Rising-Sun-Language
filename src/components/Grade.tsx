@@ -102,7 +102,7 @@ export default function Grade() {
       <ul className=" flex flex-row items-center justify-center text-white bg-slate-800 ">
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={1}
           >
@@ -111,7 +111,7 @@ export default function Grade() {
         </li>
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={2}
           >
@@ -120,7 +120,7 @@ export default function Grade() {
         </li>
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={3}
           >
@@ -129,7 +129,7 @@ export default function Grade() {
         </li>
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={4}
           >
@@ -138,7 +138,7 @@ export default function Grade() {
         </li>
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={5}
           >
@@ -147,7 +147,7 @@ export default function Grade() {
         </li>
         <li>
           <button
-            className="border border-slate-700 hover:bg-slate-700 p-4 px-12"
+            className="border border-slate-700 hover:bg-slate-700 p-2 sm:p-4 sm:px-12"
             onClick={handleGrade}
             value={6}
           >
@@ -236,7 +236,7 @@ export default function Grade() {
             </div>
           </section>
         </div>
-        <div className="grid grid-cols-2 text-3xl">
+        <div className="grid grid-cols-2 h-full text-3xl">
           <button
             className=" border border-slate-600 hover:bg-slate-500 duration-300"
             onClick={() => {

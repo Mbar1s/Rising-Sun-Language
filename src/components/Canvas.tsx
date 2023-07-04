@@ -65,9 +65,9 @@ function DrawingCanvas() {
       <canvas
         className="fixed top-13 left-1/2 z-0"
         ref={canvasRef}
-        onMouseDown={startDrawing}
-        onMouseMove={continueDrawing}
-        onMouseUp={stopDrawing}
+        onPointerDown={startDrawing}
+        onPointerMove={continueDrawing}
+        onPointerUp={stopDrawing}
       />
     </div>
   );

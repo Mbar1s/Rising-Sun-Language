@@ -152,7 +152,7 @@ export default function Alphabet() {
         )
       ) : (
         <>
-          <div className="grid grid-cols-5   ">
+          <div className="grid sm:grid-cols-5   ">
             {hiragana.map((character) => (
               <div className="border p-4 gap-4 flex justify-center border-slate-500">
                 <h1 className=" font-mplus text-3xl">{character.kana}</h1>
@@ -160,7 +160,7 @@ export default function Alphabet() {
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-5  ">
+          <div className="grid sm:grid-cols-5  ">
             {katakana.map((character) => (
               <div className="border p-4 gap-4 flex justify-center border-slate-500 ">
                 <h1 className=" font-mplus text-3xl">{character.kana} </h1>

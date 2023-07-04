@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import translateAPI from "../api/translateAPI";
 import TextToSpeechAPI from "../api/TextToSpeechAPI";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 interface Search {
@@ -70,11 +69,11 @@ export default function Translate() {
   console.log(speech);
 
   return (
-    <div className="grid grid-cols-2 h-screen justify-center  text-white">
+    <div className="flex flex-col sm:grid sm:grid-cols-2 h-screen justify-center  text-white">
       <div className="flex flex-col">
         <textarea
           onChange={handleInput}
-          className="border-2 sm: text-2xl h-full  border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
+          className="border-2 text-2xl h-96  border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
         ></textarea>
         <div className="flex flex-row">
           <button
@@ -94,7 +93,7 @@ export default function Translate() {
           </button>
         </div>
       </div>
-      <div className="sm:text-5xl flex flex-col gap-10 items-center  self-center text-center  ">
+      <div className=" border-t-2 border-slate-500 mt-5 sm:mt-0 text-4xl flex flex-col gap-10 items-center  self-center text-center  ">
         {" "}
         <h1 className="font-mplus">{output}</h1>
         <audio className="" src={speech} controls></audio>

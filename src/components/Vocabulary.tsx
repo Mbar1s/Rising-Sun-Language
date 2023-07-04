@@ -50,7 +50,7 @@ export default function Vocabulary() {
     setPage(!page);
   };
   return (
-    <div className="grid grid-cols-4 bg-slate-700 text-white h-screen">
+    <div className="flex flex-col sm:grid sm:grid-cols-4 bg-slate-700 text-white h-screen">
       <button
         className="border rounded-lg hover:bg-slate-500"
         onClick={handlePage}

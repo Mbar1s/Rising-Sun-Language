@@ -53,7 +53,7 @@ export default function AllKanji() {
   return (
     <div className="text-white">
       {allKanji.length !== 0 ? (
-        <div className="grid grid-cols-4">
+        <div className="sm:grid sm:grid-cols-4">
           {allKanji.map((kanji) => (
             <Link
               to={`/Search/${kanji.kanji.character}`}
