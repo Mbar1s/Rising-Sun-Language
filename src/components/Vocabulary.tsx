@@ -22,7 +22,7 @@ export default function Vocabulary() {
   const [streak, setStreak] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const handleInput = (value) => {
+  const handleInput = (value: React.ChangeEvent<HTMLInputElement>) => {
     setInput(value.target.value.toLowerCase());
     setActive(false);
   };

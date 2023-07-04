@@ -3,9 +3,7 @@ import translateAPI from "../api/translateAPI";
 import TextToSpeechAPI from "../api/TextToSpeechAPI";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
-import {
-  faSearch
-} from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 interface Search {
   input: string;
@@ -21,13 +19,12 @@ export default function Translate() {
   const [sourceLanguage, setSourceLanguage] = useState("en");
   const [targetLanguage, setTargetLanguage] = useState("ja");
 
-  const handleInput = (value:any) => {
+  const handleInput = (value: any) => {
     setInput(value.target.value);
-    
   };
   const handleSearch = () => {
-    setSearch([input, targetLanguage, sourceLanguage]);
-    setSpeech("")
+    setSearch([{ input, targetLanguage, sourceLanguage }]);
+    setSpeech("");
   };
   const handleLanguage = () => {
     if (targetLanguage === "en") {
@@ -49,14 +46,16 @@ export default function Translate() {
         console.log(error);
       }
     };
-    getKanji();
+    if (search) {
+      getKanji();
+    }
   }, [search]);
 
   //Text-to-Speech API
   useEffect(() => {
     const getKanji = async () => {
       try {
-        const data = await TextToSpeechAPI([output, targetLanguage]);
+        const data = await TextToSpeechAPI(output, targetLanguage);
         console.log(data);
         setSpeech(data.data.speech);
       } catch (error) {
@@ -98,10 +97,7 @@ export default function Translate() {
       <div className="sm:text-5xl flex flex-col gap-10 items-center  self-center text-center  ">
         {" "}
         <h1 className="font-mplus">{output}</h1>
-        <audio className=""
-          src={speech}
-          controls
-        ></audio>
+        <audio className="" src={speech} controls></audio>
       </div>
     </div>
   );

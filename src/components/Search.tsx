@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import SearchAPI from "../api/SearchAPI";
 import DetailsAPI from "../api/DetailsAPI";
-import { useLocation } from "react-router-dom";
+import { useLocation, Location } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
@@ -58,10 +58,16 @@ export default function Search() {
     examples: [],
     kanji: {
       meaning: {},
+      kunyomi: {},
+      onyomi: {},
+      video: {},
     },
   });
+
   const [exampleNumber, setExampleNumber] = useState(0);
-  const [kanjiLocation, setKanjiLocation] = useState();
+  const [kanjiLocation, setKanjiLocation] = useState<Location | undefined>(
+    undefined
+  );
   const location = useLocation();
 
   useEffect(() => {
@@ -86,9 +92,9 @@ export default function Search() {
   useEffect(() => {
     const getKanji = async () => {
       try {
-        const data = !kanjiLocation
-          ? await DetailsAPI(output[0]?.kanji?.character)
-          : await DetailsAPI(kanjiLocation?.state?.input);
+        const data = await DetailsAPI(
+          kanjiLocation?.state?.input ?? output[0]?.kanji?.character
+        );
         setDetails(data.data);
       } catch (error) {
         console.log(error);
@@ -102,8 +108,27 @@ export default function Search() {
     console.log(value.target.value);
   };
   const handleSearch = () => {
-    setDetails("");
-    setKanjiLocation("");
+    setDetails({
+      examples: [],
+      kanji: {
+        meaning: {
+          english: "",
+        },
+        kunyomi: {
+          hiragana: "",
+          romaji: "",
+        },
+        onyomi: {
+          katakana: "",
+          romaji: "",
+        },
+        video: {
+          poster: "",
+          mp4: "",
+        },
+      },
+    });
+    setKanjiLocation(undefined);
     setExampleNumber(0);
     setSearch(input.toLowerCase());
   };

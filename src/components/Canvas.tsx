@@ -1,18 +1,20 @@
 import React, { useRef, useEffect, useState } from "react";
 
 function DrawingCanvas() {
-  const canvasRef = useRef(null);
-  const contextRef = useRef(null);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const contextRef = useRef<CanvasRenderingContext2D | null>(null);
   const [drawing, setDrawing] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
+    if (!canvas) return;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     canvas.style.width = `${window.innerWidth}px`;
     canvas.style.height = `${window.innerHeight}px`;
 
     const context = canvas.getContext("2d");
+    if (!context) return;
     context.scale(1, 1);
     context.lineCap = "round";
     context.strokeStyle = "black";
@@ -20,25 +22,29 @@ function DrawingCanvas() {
     contextRef.current = context;
   }, []);
 
-  const startDrawing = ({ nativeEvent }) => {
-    const { offsetX, offsetY } = nativeEvent;
-    contextRef.current.beginPath();
-    contextRef.current.moveTo(offsetX, offsetY);
+  const startDrawing = (
+    event: React.MouseEvent<HTMLCanvasElement, MouseEvent>
+  ) => {
+    const { offsetX, offsetY } = event.nativeEvent;
+    contextRef.current?.beginPath();
+    contextRef.current?.moveTo(offsetX, offsetY);
     setDrawing(true);
   };
 
   const stopDrawing = () => {
-    contextRef.current.closePath();
+    contextRef.current?.closePath();
     setDrawing(false);
   };
 
-  const continueDrawing = ({ nativeEvent }) => {
+  const continueDrawing = (
+    event: React.MouseEvent<HTMLCanvasElement, MouseEvent>
+  ) => {
     if (!drawing) {
       return;
     }
-    const { offsetX, offsetY } = nativeEvent;
-    contextRef.current.lineTo(offsetX, offsetY);
-    contextRef.current.stroke();
+    const { offsetX, offsetY } = event.nativeEvent;
+    contextRef.current?.lineTo(offsetX, offsetY);
+    contextRef.current?.stroke();
   };
 
   console.log(canvasRef);
@@ -49,8 +55,8 @@ function DrawingCanvas() {
           className="border w-full p-4 border-slate-500"
           onClick={() => {
             const canvas = canvasRef.current;
-            const context = canvas.getContext("2d");
-            context.clearRect(0, 0, canvas.width, canvas.height);
+            const context = canvas?.getContext("2d");
+            context?.clearRect(0, 0, canvas?.width ?? 0, canvas?.height ?? 0);
           }}
         >
           Clear{" "}

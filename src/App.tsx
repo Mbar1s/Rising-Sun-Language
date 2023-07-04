@@ -14,7 +14,6 @@ import Miscellaneous from "./components/Miscellaneous";
 import Translate from "./components/Translate";
 import AllKanji from "./components/AllKanji";
 import KanjiPractice from "./components/KanjiPractice";
-import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

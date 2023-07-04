@@ -1,21 +1,18 @@
-
 import axios from "axios";
 
-export default function SearchAPI(search) {
+export default function SearchAPI(search: string) {
   const options = {
-    method: 'GET',
-    url: 'https://kanjialive-api.p.rapidapi.com/api/public/search/advanced/',
-    params: {kem: `${search}`},
+    method: "GET",
+    url: "https://kanjialive-api.p.rapidapi.com/api/public/search/advanced/",
+    params: { kem: `${search}` },
     headers: {
-      'X-RapidAPI-Key': `${import.meta.env.VITE_REACT_RAPID_API}`,
-      'X-RapidAPI-Host': 'kanjialive-api.p.rapidapi.com'
-    }
+      "X-RapidAPI-Key": `${import.meta.env.VITE_REACT_RAPID_API}`,
+      "X-RapidAPI-Host": "kanjialive-api.p.rapidapi.com",
+    },
   };
-  
 
-  console.log(search)
-  const response = axios.request(options)
-    
+  console.log(search);
+  const response = axios.request(options);
 
   return response;
 }
