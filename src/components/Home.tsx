@@ -20,18 +20,6 @@ export default function Home() {
   return (
     <div>
       <main className="flex flex-col gap-10 h-full mt-10 items-center justify-center bg-slate-700 text-white">
-        <button className="group flex-grow border-l-2 p-4  border-slate-700 inline-block sm:hidden border bg-slate-500 rounded-lg ">
-          Rising Sun Language{" "}
-          <FontAwesomeIcon
-            className="inline-block group-hover:hidden sm:hidden"
-            icon={faDiceD20}
-          />
-          <FontAwesomeIcon
-            className=" hidden group-hover:inline-block sm:group-hover:hidden sm:hidden"
-            icon={faDiceD20}
-            beatFade
-          />
-        </button>
         <h1 className="text-3xl">Welcome</h1>
         <h1>Navigate To The Section You Want</h1>
         <div className=" sm:grid sm:grid-cols-3 ">

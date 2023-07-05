@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="">
-      <ul className="hidden sm:grid sm:grid-cols-7 justify-center border-b-2 border-slate-700 bg-slate-800 text-white ">
+      <ul className="hidden sm:grid sm:grid-cols-7 justify-center border-b-2 border-slate-700 bg-slate-900 text-white ">
         <li className=" flex-grow hover:bg-slate-700 duration-150">
           <Link className="flex" to="/">
             <button className="flex-grow border-l-2 p-4  border-slate-700 ">

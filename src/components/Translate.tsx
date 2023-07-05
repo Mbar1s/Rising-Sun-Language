@@ -69,31 +69,31 @@ export default function Translate() {
   console.log(speech);
 
   return (
-    <div className="flex flex-col sm:grid sm:grid-cols-2 h-screen justify-center  text-white">
-      <div className="flex flex-col">
+    <div className="flex flex-col sm:grid sm:grid-cols-2 h-screen   text-white">
+      <div className="flex flex-col h-2/3 sm:h-full">
         <textarea
           onChange={handleInput}
-          className="border-2 text-2xl h-96  border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
+          className="border-2 text-2xl h-full sm:h-5/6  border-slate-600 bg-slate-400 rounded-lg p-2 focus:outline-none"
         ></textarea>
         <div className="flex flex-row">
           <button
-            className="border-2 w-full  h-48 border-slate-600 rounded-lg p-3 hover:bg-slate-600 duration-300"
+            className="border-2 w-full  h-24 border-slate-600 rounded-lg p-3 hover:bg-slate-600 duration-300"
             onClick={handleSearch}
           >
             Search <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
           </button>
           <button
-            className="border-2 w-full h-48  border-slate-600 rounded-lg p-3 hover:bg-slate-600 duration-300"
+            className="border-2 w-full h-24  border-slate-600 rounded-lg p-3 hover:bg-slate-600 duration-300"
             onClick={handleLanguage}
           >
-            Source Language ={" "}
+            Translate {" "}
             {targetLanguage === "ja"
               ? sourceLanguage + "glish"
               : sourceLanguage + "panese"}
           </button>
         </div>
       </div>
-      <div className=" border-t-2 border-slate-500 mt-5 sm:mt-0 text-4xl flex flex-col gap-10 items-center  self-center text-center  ">
+      <div className=" border-t-2 sm:border-t-0  border-slate-500 text-4xl flex flex-col gap-10 items-center  self-center  ">
         {" "}
         <h1 className="font-mplus">{output}</h1>
         <audio className="" src={speech} controls></audio>
